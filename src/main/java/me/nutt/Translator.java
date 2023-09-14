@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Translator {
 
-    private static final OpenAiService service = new OpenAiService("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", Duration.ofMinutes(3));
+    private static final OpenAiService service = new OpenAiService("PRIVATE OPENAI KEY GOES HERE", Duration.ofMinutes(3));
 
     private static final HashMap<String, List<String>> translatedFiles = new HashMap<>();
 
